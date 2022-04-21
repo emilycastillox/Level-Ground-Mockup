@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+  }
+  
+  /* Clear fix */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+  .change:hover{
+      background: #c0d5f0a4;
+      color: white;
+
+  }
+ 
+/* header */
+
+  header{
+      height: 50px;
+      background: #66768A;
+      color: white;
+      clear: both;
+  }
+
+  
+  header section{
+      height: 50px;
+      width: 33.333%;
+      float: left;
+      text-align: center;
+      padding: 10px;
+  }
+
+  .donate{
+      padding: 20px;
+  }
+
+  header li{
+      width: 50%;
+      float: left;
+      list-style: none;
+  }
+
+  header a{
+      text-decoration: none;
+      color: white;
+  }
+
+  header button{
+      color: #66768A;
+      background: white;
+      border-radius: 5px;
+      width: 30%;
+      height: 30px;
+      border: none;
+  }
+
+
+  /* main */
+
+  main{
+      height: 500px;
+      background: #66768A;
+      color: white;
+      text-align: center;
+      padding: 150px;
+  }
+
+/* why section */
+
+  .why{
+      height: 200px;
+      text-align: center;
+      padding: 30px;
+      color: #161F2A;
+  }
+
+/* visit sections */
+
+  .visit{
+      height: 400px;
+      color: #161F2A;
+      background: #DBDFE2;
+  }
+
+  .visit section{
+      height: 400px;
+      width: 50%;
+      float: left;
+      text-align: center;
+      padding-top: 20px;
+  }
+
+  .visit img{
+      height: 200px;
+      width: 50%;
+  }
+
+  .visit button{
+      border: 1px solid #161F2A;
+      background: #DBDFE2;
+      height: 32px;
+      width: 20%;
+  }
+
+/* volunteer section */
+
+  .vol{
+      height: 300px;
+      text-align: center;
+      padding: 60px;
+      color: #161F2A;
+  }
+
+  .vol button{
+      border: 1px solid #161F2A;
+      background: white;
+      width: 15%;
+      height: 40px;
+  }
+
+  
+
+  /* footer section */
+
+  footer{
+      height: 200px;
+      background: #161F2A;
+      color: white;
+      clear: both;
+      padding-left: 30px;
+  }
+
+  .top{
+      height: 150px;
+  }
+
+  .one{
+      height: 150px;
+      width: 20%;
+      float: left;
+      margin-top: 10px;
+  }
+
+  .one section{
+      height: 50px;
+      font-size: smaller;
+  }
+
+  .one li{
+      list-style: none;
+      width: 25%;
+      float: left;
+  }
+
+  .one a{
+      text-decoration: none;
+      color: white;
+  }
+
+  .two{
+      height: 150px;
+      width: 60%;
+      float: left;
+  }
+  
+  .bottom{
+      height: 50px;
+      margin-top:  17px;
+      border-top: 1px solid white;
+      padding-top: 5px;
+  }
+
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+
+  @media all and (max-width: 1035px){
+      header button{
+          width: 30%;
+      }
+
+  }
+
+  @media all and (max-width: 892px){
+      .visit section{
+          width: 100%;
+      }
+      .visit{
+          height: 800px;
+      }
+      .one li{
+          width: 40%;
+      }
+  }
+
+  @media all and (max-width: 690px){
+    header section{
+        width: 100%;
+    }
+    .two{
+        display: none;
+    }
+    .bottom{
+        width: 100%;
+    }
+    .top section{
+        width: 100%;
+        text-align: center;
+    }
+    footer{
+        height:300px;
+    }
+    main{
+        height: 800px;
+    }
+    .visit{
+        height: 900px;
+    }
+    .vol{
+        height: 400px;
+    }
+  }
