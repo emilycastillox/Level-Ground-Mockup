@@ -4,6 +4,8 @@ This project is a mockup based on Level Ground's original website layout. It is 
 
 **Link to project:** https://eclevelmockup.netlify.app
 
+![levelground](https://user-images.githubusercontent.com/102037717/165102585-8fcb514b-18f4-439a-9810-9d7d7f1c80ed.png)
+
 ## How It's Made:
 
 **Tech used:** HTML, CSS
